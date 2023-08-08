@@ -6,7 +6,7 @@ def home(request):
     return render(request, "home.html", {})
 
 def kisilist(request):
-    return render(request, "kisilist", {})
+    return render(request, "kisilist.html", {})
 
 def kisiekle(request):
-    return render(request, "kisiekle", {})
+    return render(request, "kisiekle.html", {})
